@@ -65,6 +65,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Enemigo.cs" />
     <Compile Include="Assets\Scripts\Path.cs" />
+    <Compile Include="Assets\Scripts\Spawn.cs" />
     <Reference Include="UnityEngine">
       <HintPath>D:/UNITY EDITORS/2019.4.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
