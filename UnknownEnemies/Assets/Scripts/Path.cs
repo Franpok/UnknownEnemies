@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class Path : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public static Transform[] puntos;
 
-    // Update is called once per frame
-    void Update()
+    private void Awake()
     {
-        
+        puntos = new Transform[transform.childCount];
+
+        for (int i = 0; i < puntos.Length; i++)
+        {
+            transform.GetChild(i);
+        }
     }
 }
