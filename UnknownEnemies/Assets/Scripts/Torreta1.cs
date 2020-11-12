@@ -4,12 +4,17 @@ using UnityEngine;
 
 public class Torreta1 : MonoBehaviour
 {
+    public string TagEnemigo = "Enemigo";
+
     private Transform target;
     public Transform rotatoria;
 
-    public float rango = 15f, speed = 10f;
+    public float rango = 15f, speed = 10f, cadencia = 1f;
 
-    public string TagEnemigo = "Enemigo";
+    public GameObject prefabBala;
+    public Transform spawnBala;
+
+    private float contadorDisparo = 0f;
 
     void Start()
     {
@@ -55,6 +60,25 @@ public class Torreta1 : MonoBehaviour
         Quaternion lookRotation = Quaternion.LookRotation(dir);
         Vector3 rotacion = Quaternion.Lerp(rotatoria.rotation, lookRotation, Time.deltaTime * speed).eulerAngles;
         rotatoria.rotation = Quaternion.Euler(0f, rotacion.y, 0f);
+
+        if(contadorDisparo <= 0)
+        {
+            Shoot();
+            contadorDisparo = 1f / cadencia;
+        }
+
+        contadorDisparo -= Time.deltaTime;
+    }
+
+    public void Shoot()
+    {
+        GameObject balaPro = Instantiate(prefabBala, spawnBala.position, spawnBala.rotation);
+        Bala bala = balaPro.GetComponent<Bala>();
+
+        if(bala != null)
+        {
+            bala.Follow(target);
+        }
     }
 
     public void OnDrawGizmosSelected()

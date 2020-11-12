@@ -63,7 +63,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Bala.cs" />
+    <Compile Include="Assets\Scripts\BuildManager.cs" />
     <Compile Include="Assets\Scripts\Enemigo.cs" />
+    <Compile Include="Assets\Scripts\Nodo.cs" />
     <Compile Include="Assets\Scripts\Path.cs" />
     <Compile Include="Assets\Scripts\Spawn.cs" />
     <Compile Include="Assets\Scripts\Torreta1.cs" />

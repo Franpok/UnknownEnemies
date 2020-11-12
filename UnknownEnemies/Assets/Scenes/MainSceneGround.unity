@@ -282,6 +282,7 @@ GameObject:
   - component: {fileID: 22074804}
   - component: {fileID: 22074803}
   - component: {fileID: 22074802}
+  - component: {fileID: 22074801}
   m_Layer: 0
   m_Name: Suelo (13)
   m_TagString: Untagged
@@ -289,6 +290,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &22074801
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 22074800}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000002, y: 1, z: 1.0000002}
+  m_Center: {x: 0, y: 0, z: 0.00000023841858}
 --- !u!23 &22074802
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -510,6 +524,7 @@ GameObject:
   m_Component:
   - component: {fileID: 27485994}
   - component: {fileID: 27485995}
+  - component: {fileID: 27485996}
   m_Layer: 0
   m_Name: ControladorJuego
   m_TagString: Untagged
@@ -550,6 +565,20 @@ MonoBehaviour:
   - {fileID: 107015902}
   numeroOleadaTexto: {fileID: 1704464837}
   TiempoEntreOleadas: 5.5
+--- !u!114 &27485996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 27485993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f954dea6886258468ae16692102d6b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  torreta1: {fileID: 2315188518760820730, guid: d73523dc00352ef4a8ef34e85b62a0b2,
+    type: 3}
 --- !u!1001 &38484916
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3417,6 +3446,7 @@ GameObject:
   - component: {fileID: 255940042}
   - component: {fileID: 255940041}
   - component: {fileID: 255940040}
+  - component: {fileID: 255940039}
   m_Layer: 0
   m_Name: Suelo (20)
   m_TagString: Untagged
@@ -3424,6 +3454,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &255940039
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 255940038}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1.0000001}
+  m_Center: {x: 0, y: 0, z: -0.00000011920929}
 --- !u!23 &255940040
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3496,6 +3539,7 @@ GameObject:
   - component: {fileID: 255957825}
   - component: {fileID: 255957824}
   - component: {fileID: 255957823}
+  - component: {fileID: 255957822}
   m_Layer: 0
   m_Name: Suelo (1)
   m_TagString: Untagged
@@ -3503,6 +3547,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &255957822
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 255957821}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000002, y: 1, z: 1.0000002}
+  m_Center: {x: 0.0000014305115, y: 0, z: 0.00000029802322}
 --- !u!23 &255957823
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3950,6 +4007,7 @@ GameObject:
   - component: {fileID: 306714577}
   - component: {fileID: 306714576}
   - component: {fileID: 306714575}
+  - component: {fileID: 306714574}
   m_Layer: 0
   m_Name: Suelo (24)
   m_TagString: Untagged
@@ -3957,6 +4015,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &306714574
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 306714573}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &306714575
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5229,6 +5300,7 @@ GameObject:
   - component: {fileID: 406885170}
   - component: {fileID: 406885169}
   - component: {fileID: 406885168}
+  - component: {fileID: 406885167}
   m_Layer: 0
   m_Name: Suelo (2)
   m_TagString: Untagged
@@ -5236,6 +5308,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &406885167
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 406885166}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: -0.00000023841858}
 --- !u!23 &406885168
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5758,6 +5843,7 @@ GameObject:
   - component: {fileID: 439904666}
   - component: {fileID: 439904665}
   - component: {fileID: 439904664}
+  - component: {fileID: 439904663}
   m_Layer: 0
   m_Name: Suelo (16)
   m_TagString: Untagged
@@ -5765,6 +5851,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &439904663
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 439904662}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &439904664
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5912,6 +6011,7 @@ GameObject:
   - component: {fileID: 452355109}
   - component: {fileID: 452355108}
   - component: {fileID: 452355107}
+  - component: {fileID: 452355106}
   m_Layer: 0
   m_Name: Suelo (15)
   m_TagString: Untagged
@@ -5919,6 +6019,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &452355106
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 452355105}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000002, y: 1, z: 1.0000002}
+  m_Center: {x: -0.00000035762787, y: 0, z: -0.00000023841858}
 --- !u!23 &452355107
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6216,6 +6329,7 @@ GameObject:
   - component: {fileID: 471369060}
   - component: {fileID: 471369059}
   - component: {fileID: 471369058}
+  - component: {fileID: 471369057}
   m_Layer: 0
   m_Name: Suelo (26)
   m_TagString: Untagged
@@ -6223,6 +6337,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &471369057
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 471369056}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &471369058
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8269,6 +8396,7 @@ GameObject:
   - component: {fileID: 591621542}
   - component: {fileID: 591621541}
   - component: {fileID: 591621540}
+  - component: {fileID: 591621539}
   m_Layer: 0
   m_Name: Suelo (22)
   m_TagString: Untagged
@@ -8276,6 +8404,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &591621539
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 591621538}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: -0.00000023841858}
 --- !u!23 &591621540
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -10540,6 +10681,7 @@ GameObject:
   - component: {fileID: 735941909}
   - component: {fileID: 735941908}
   - component: {fileID: 735941907}
+  - component: {fileID: 735941906}
   m_Layer: 0
   m_Name: Suelo (27)
   m_TagString: Untagged
@@ -10547,6 +10689,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &735941906
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 735941905}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000002, y: 1, z: 1.0000002}
+  m_Center: {x: 0, y: 0, z: 0.00000047683716}
 --- !u!23 &735941907
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11969,6 +12124,7 @@ GameObject:
   - component: {fileID: 843755373}
   - component: {fileID: 843755372}
   - component: {fileID: 843755371}
+  - component: {fileID: 843755370}
   m_Layer: 0
   m_Name: Suelo (23)
   m_TagString: Untagged
@@ -11976,6 +12132,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &843755370
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 843755369}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000002, y: 1, z: 1.0000002}
+  m_Center: {x: 0, y: 0, z: -0.0000009536743}
 --- !u!23 &843755371
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -12573,6 +12742,7 @@ GameObject:
   - component: {fileID: 866914543}
   - component: {fileID: 866914542}
   - component: {fileID: 866914541}
+  - component: {fileID: 866914540}
   m_Layer: 0
   m_Name: Suelo (14)
   m_TagString: Untagged
@@ -12580,6 +12750,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &866914540
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 866914539}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &866914541
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -14160,6 +14343,7 @@ GameObject:
   - component: {fileID: 994271939}
   - component: {fileID: 994271938}
   - component: {fileID: 994271937}
+  - component: {fileID: 994271936}
   m_Layer: 0
   m_Name: Suelo (9)
   m_TagString: Untagged
@@ -14167,6 +14351,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &994271936
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 994271935}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000002, y: 1, z: 1.0000004}
+  m_Center: {x: 0, y: 0, z: 0.00000023841858}
 --- !u!23 &994271937
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -14545,6 +14742,7 @@ GameObject:
   - component: {fileID: 1024956936}
   - component: {fileID: 1024956935}
   - component: {fileID: 1024956934}
+  - component: {fileID: 1024956933}
   m_Layer: 0
   m_Name: Suelo (25)
   m_TagString: Untagged
@@ -14552,6 +14750,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &1024956933
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1024956932}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000002, y: 1, z: 1.0000002}
+  m_Center: {x: 0, y: 0, z: 0.00000047683716}
 --- !u!23 &1024956934
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -15211,6 +15422,7 @@ GameObject:
   - component: {fileID: 1057435999}
   - component: {fileID: 1057435998}
   - component: {fileID: 1057435997}
+  - component: {fileID: 1057435996}
   m_Layer: 0
   m_Name: Suelo (12)
   m_TagString: Untagged
@@ -15218,6 +15430,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &1057435996
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1057435995}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1057435997
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -18308,6 +18533,7 @@ GameObject:
   - component: {fileID: 1258754851}
   - component: {fileID: 1258754850}
   - component: {fileID: 1258754849}
+  - component: {fileID: 1258754848}
   m_Layer: 0
   m_Name: Suelo (17)
   m_TagString: Untagged
@@ -18315,6 +18541,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &1258754848
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1258754847}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000002, y: 1, z: 1.0000002}
+  m_Center: {x: 0.00000071525574, y: 0, z: 0}
 --- !u!23 &1258754849
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -18612,6 +18851,7 @@ GameObject:
   - component: {fileID: 1285109230}
   - component: {fileID: 1285109229}
   - component: {fileID: 1285109228}
+  - component: {fileID: 1285109227}
   m_Layer: 0
   m_Name: Suelo (21)
   m_TagString: Untagged
@@ -18619,6 +18859,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &1285109227
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1285109226}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000002, y: 1, z: 1.0000002}
+  m_Center: {x: 0.0000009536743, y: 0, z: 0}
 --- !u!23 &1285109228
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -19174,6 +19427,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   IDPath: 2
+--- !u!4 &1338974879 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 751725547836653624, guid: d73523dc00352ef4a8ef34e85b62a0b2,
+    type: 3}
+  m_PrefabInstance: {fileID: 3807057376791497589}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1344401325
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19335,6 +19594,7 @@ GameObject:
   - component: {fileID: 1364782258}
   - component: {fileID: 1364782257}
   - component: {fileID: 1364782256}
+  - component: {fileID: 1364782255}
   m_Layer: 0
   m_Name: Suelo
   m_TagString: Untagged
@@ -19342,6 +19602,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &1364782255
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1364782254}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1364782256
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -19789,6 +20062,7 @@ GameObject:
   - component: {fileID: 1395432250}
   - component: {fileID: 1395432249}
   - component: {fileID: 1395432248}
+  - component: {fileID: 1395432247}
   m_Layer: 0
   m_Name: Suelo (29)
   m_TagString: Untagged
@@ -19796,6 +20070,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &1395432247
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1395432246}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000002, y: 1, z: 1.0000002}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1395432248
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -19943,6 +20230,7 @@ GameObject:
   - component: {fileID: 1415674396}
   - component: {fileID: 1415674395}
   - component: {fileID: 1415674394}
+  - component: {fileID: 1415674393}
   m_Layer: 0
   m_Name: Suelo (28)
   m_TagString: Untagged
@@ -19950,6 +20238,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &1415674393
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1415674392}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 0.99999994}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1415674394
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -20022,6 +20323,7 @@ GameObject:
   - component: {fileID: 1416408704}
   - component: {fileID: 1416408703}
   - component: {fileID: 1416408702}
+  - component: {fileID: 1416408701}
   m_Layer: 0
   m_Name: Suelo (18)
   m_TagString: Untagged
@@ -20029,6 +20331,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &1416408701
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1416408700}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1416408702
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -20851,6 +21166,7 @@ GameObject:
   - component: {fileID: 1489007479}
   - component: {fileID: 1489007478}
   - component: {fileID: 1489007477}
+  - component: {fileID: 1489007476}
   m_Layer: 0
   m_Name: Suelo (4)
   m_TagString: Untagged
@@ -20858,6 +21174,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &1489007476
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1489007475}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: -0.00000011920929}
 --- !u!23 &1489007477
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -22130,6 +22459,7 @@ GameObject:
   - component: {fileID: 1556018446}
   - component: {fileID: 1556018445}
   - component: {fileID: 1556018444}
+  - component: {fileID: 1556018443}
   m_Layer: 0
   m_Name: Suelo Grande
   m_TagString: Untagged
@@ -22137,6 +22467,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &1556018443
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1556018442}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0.00000023841858, y: 0, z: 0}
 --- !u!23 &1556018444
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -22588,6 +22931,7 @@ GameObject:
   - component: {fileID: 1581330280}
   - component: {fileID: 1581330279}
   - component: {fileID: 1581330278}
+  - component: {fileID: 1581330277}
   m_Layer: 0
   m_Name: Suelo (7)
   m_TagString: Untagged
@@ -22595,6 +22939,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &1581330277
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1581330276}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000002, y: 1, z: 1.0000002}
+  m_Center: {x: 0.0000009536743, y: 0, z: -0.000000059604645}
 --- !u!23 &1581330278
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -22667,6 +23024,7 @@ GameObject:
   - component: {fileID: 1582955859}
   - component: {fileID: 1582955858}
   - component: {fileID: 1582955857}
+  - component: {fileID: 1582955856}
   m_Layer: 0
   m_Name: Suelo (19)
   m_TagString: Untagged
@@ -22674,6 +23032,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &1582955856
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1582955855}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000002, y: 1, z: 1.0000002}
+  m_Center: {x: 0.0000009536743, y: 0, z: 0}
 --- !u!23 &1582955857
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -24640,6 +25011,7 @@ GameObject:
   - component: {fileID: 1712781000}
   - component: {fileID: 1712780999}
   - component: {fileID: 1712780998}
+  - component: {fileID: 1712780997}
   m_Layer: 0
   m_Name: Suelo (3)
   m_TagString: Untagged
@@ -24647,6 +25019,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &1712780997
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1712780996}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000002, y: 1, z: 1.0000002}
+  m_Center: {x: 0.00000071525574, y: 0, z: 0}
 --- !u!23 &1712780998
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -24794,6 +25179,7 @@ GameObject:
   - component: {fileID: 1717540421}
   - component: {fileID: 1717540420}
   - component: {fileID: 1717540419}
+  - component: {fileID: 1717540418}
   m_Layer: 0
   m_Name: Suelo (8)
   m_TagString: Untagged
@@ -24801,6 +25187,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &1717540418
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1717540417}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: -0.00000047683716}
 --- !u!23 &1717540419
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -25698,6 +26097,7 @@ GameObject:
   - component: {fileID: 1775370333}
   - component: {fileID: 1775370332}
   - component: {fileID: 1775370331}
+  - component: {fileID: 1775370330}
   m_Layer: 0
   m_Name: Suelo (10)
   m_TagString: Untagged
@@ -25705,6 +26105,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &1775370330
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1775370329}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1775370331
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -27277,6 +27690,7 @@ GameObject:
   - component: {fileID: 1862413202}
   - component: {fileID: 1862413201}
   - component: {fileID: 1862413200}
+  - component: {fileID: 1862413199}
   m_Layer: 0
   m_Name: Suelo (6)
   m_TagString: Untagged
@@ -27284,6 +27698,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &1862413199
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1862413198}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0.00000023841858}
 --- !u!23 &1862413200
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -29372,6 +29799,7 @@ GameObject:
   - component: {fileID: 2034963773}
   - component: {fileID: 2034963772}
   - component: {fileID: 2034963771}
+  - component: {fileID: 2034963770}
   m_Layer: 0
   m_Name: Suelo (11)
   m_TagString: Untagged
@@ -29379,6 +29807,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &2034963770
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2034963769}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000002, y: 1, z: 1.0000002}
+  m_Center: {x: 0, y: 0, z: 0.00000023841858}
 --- !u!23 &2034963771
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -29451,6 +29892,7 @@ GameObject:
   - component: {fileID: 2038235544}
   - component: {fileID: 2038235543}
   - component: {fileID: 2038235542}
+  - component: {fileID: 2038235541}
   m_Layer: 0
   m_Name: Suelo (5)
   m_TagString: Untagged
@@ -29458,6 +29900,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &2038235541
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2038235540}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000002, y: 1, z: 1.0000001}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &2038235542
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -29968,6 +30423,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2214306390767183305, guid: a913f07c0787ecc4dadb56cf3e0752c0,
     type: 3}
   m_PrefabInstance: {fileID: 2086595894}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2095447978 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6591762711165891626, guid: d73523dc00352ef4a8ef34e85b62a0b2,
+    type: 3}
+  m_PrefabInstance: {fileID: 3807057376791497589}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &2098747954
 GameObject:
@@ -30710,6 +31171,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -1540099960815791177, guid: d73523dc00352ef4a8ef34e85b62a0b2,
+        type: 3}
+      propertyPath: spawnBala
+      value: 
+      objectReference: {fileID: 2095447978}
+    - target: {fileID: -1540099960815791177, guid: d73523dc00352ef4a8ef34e85b62a0b2,
+        type: 3}
+      propertyPath: prefabBala
+      value: 
+      objectReference: {fileID: 6038271110197519876, guid: 2485d3a5b9d97174381b5d9224da2714,
+        type: 3}
+    - target: {fileID: -1540099960815791177, guid: d73523dc00352ef4a8ef34e85b62a0b2,
+        type: 3}
+      propertyPath: rotatoria
+      value: 
+      objectReference: {fileID: 1338974879}
     - target: {fileID: 751725547836653624, guid: d73523dc00352ef4a8ef34e85b62a0b2,
         type: 3}
       propertyPath: m_LocalPosition.x

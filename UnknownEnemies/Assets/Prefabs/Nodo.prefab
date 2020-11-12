@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 244697585951989877}
   - component: {fileID: 4052448166532475521}
   - component: {fileID: 6137348721484824381}
+  - component: {fileID: 6387612661416534003}
   m_Layer: 0
   m_Name: Nodo
   m_TagString: Untagged
@@ -93,3 +94,16 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &6387612661416534003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2725348446630195456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b94a6827e1a939a43a4c2b1397affb3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colorSelector: {r: 0.6316305, g: 0.8867924, b: 0.63916063, a: 0}
