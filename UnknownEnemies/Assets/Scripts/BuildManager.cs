@@ -20,13 +20,13 @@ public class BuildManager : MonoBehaviour
         instance = this;
     }
 
-    public void Start()
-    {
-        estructura = torreta1;
-    }
-
     public GameObject GetEstructura()
     {
         return estructura;
+    }
+
+    public void ElegirEstructura(GameObject est)
+    {
+        estructura = est;
     }
 }

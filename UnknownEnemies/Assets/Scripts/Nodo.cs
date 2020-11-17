@@ -1,10 +1,10 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using System.Net.Sockets;
+﻿using UnityEngine.EventSystems;
 using UnityEngine;
 
 public class Nodo : MonoBehaviour
 {
+    BuildManager buildManager;
+    
     public Color colorSelector;
     private Color colorInicial;
 
@@ -16,10 +16,17 @@ public class Nodo : MonoBehaviour
     {
         r = GetComponent<Renderer>();
         colorInicial = r.material.color;
+
+        buildManager = BuildManager.instance;
     }
 
     private void OnMouseDown()
     {
+        if(buildManager.GetEstructura() == null)
+        {
+            return;
+        }
+        
         if(estructura != null)
         {
             Debug.Log("No se puede construir aquí");
@@ -32,6 +39,16 @@ public class Nodo : MonoBehaviour
 
     public void OnMouseEnter()
     {
+        if (EventSystem.current.IsPointerOverGameObject())
+        {
+            return;
+        }
+        
+        if (buildManager.GetEstructura() == null)
+        {
+            return;
+        }
+
         r.material.color = colorSelector;
     }
 
