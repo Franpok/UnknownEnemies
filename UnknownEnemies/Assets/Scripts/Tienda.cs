@@ -16,10 +16,10 @@ public class Tienda : MonoBehaviour
 
     public void ComprarTorreta2()
     {
-
+        buildManager.ElegirEstructura(buildManager.torreta2);
     }
     public void ComprarTorreta3()
     {
-
+        buildManager.ElegirEstructura(buildManager.torreta3);
     }
 }
