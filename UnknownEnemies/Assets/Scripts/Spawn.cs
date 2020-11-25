@@ -37,7 +37,7 @@ public class Spawn : MonoBehaviour
         for (int i = 0; i < numeroOleada; i++)
         {
             SpawnEnemigo();
-            yield return new WaitForSeconds(0.5f);
+            yield return new WaitForSeconds(0.4f);
         }
     }
 

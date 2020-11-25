@@ -4,22 +4,24 @@ public class Tienda : MonoBehaviour
 {
     BuildManager buildManager;
 
+    public ClaseTorreta torreta_1, torreta_2;
+
     private void Start()
     {
         buildManager = BuildManager.instance;
     }
 
-    public void ComprarTorreta1()
+    public void ElegirTorreta1()
     {
-        buildManager.ElegirEstructura(buildManager.torreta1);
+        buildManager.ElegirEstructura(torreta_1);
     }
 
-    public void ComprarTorreta2()
+    public void ElegirTorreta2()
     {
-        buildManager.ElegirEstructura(buildManager.torreta2);
+        buildManager.ElegirEstructura(torreta_2);
     }
-    public void ComprarTorreta3()
+    public void ElegirTorreta3()
     {
-        buildManager.ElegirEstructura(buildManager.torreta3);
+        //buildManager.ElegirEstructura(buildManager.torreta3);
     }
 }

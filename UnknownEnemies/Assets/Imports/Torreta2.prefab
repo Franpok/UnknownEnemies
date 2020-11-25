@@ -139,9 +139,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TagEnemigo: Enemigo
-  rotatoria: {fileID: 0}
+  rotatoria: {fileID: 2171252337789002886}
   rango: 15
   speed: 10
   cadencia: 1
-  prefabBala: {fileID: 0}
-  spawnBala: {fileID: 0}
+  prefabBala: {fileID: 9141472105689580134, guid: abb7bd980f3a93148a28ffcf2dafbf45,
+    type: 3}
+  spawnBala: {fileID: 8057165608132821865}

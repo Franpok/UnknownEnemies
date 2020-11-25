@@ -8,6 +8,7 @@ public class Nodo : MonoBehaviour
     public Color colorSelector;
     private Color colorInicial;
 
+    [Header ("Optional")]
     public GameObject estructura;
 
     private Renderer r;
@@ -22,7 +23,7 @@ public class Nodo : MonoBehaviour
 
     private void OnMouseDown()
     {
-        if(buildManager.GetEstructura() == null)
+        if(!buildManager.Construir)
         {
             return;
         }
@@ -33,8 +34,7 @@ public class Nodo : MonoBehaviour
             return;
         }
 
-        GameObject aux = BuildManager.instance.GetEstructura();
-        estructura = Instantiate(aux, transform.position, transform.rotation);
+        buildManager.ConstruirAqui(this);
     }
 
     public void OnMouseEnter()
@@ -44,12 +44,19 @@ public class Nodo : MonoBehaviour
             return;
         }
         
-        if (buildManager.GetEstructura() == null)
+        if (!buildManager.Construir)
         {
             return;
         }
 
-        r.material.color = colorSelector;
+        if (buildManager.DineroSuficiente)
+        {
+            r.material.color = colorSelector;
+        }
+        else
+        {
+            r.material.color = Color.red;
+        }
     }
 
     public void OnMouseExit()

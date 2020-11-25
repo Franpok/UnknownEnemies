@@ -4,7 +4,7 @@ public class Bala : MonoBehaviour
 {
     private Transform target;
 
-    public float speed = 70f, rango = 5f;
+    public float speed = 70f, rango = 0f;
 
     public GameObject efectoImpacto;
 
