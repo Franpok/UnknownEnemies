@@ -8,8 +8,6 @@ public class BuildManager : MonoBehaviour
 
     private ClaseTorreta estructura;
 
-    public GameObject torreta1, torreta2, torreta3;
-
     public void Awake()
     {
         if (instance != null)

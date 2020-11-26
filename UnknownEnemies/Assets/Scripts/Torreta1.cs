@@ -51,15 +51,10 @@ public class Torreta1 : MonoBehaviour
 
     void Update()
     {
-        if(target == null)
-        {
+        if (target == null)
             return;
-        }
 
-        Vector3 dir = target.position - transform.position;
-        Quaternion lookRotation = Quaternion.LookRotation(dir);
-        Vector3 rotacion = Quaternion.Lerp(rotatoria.rotation, lookRotation, Time.deltaTime * speed).eulerAngles;
-        rotatoria.rotation = Quaternion.Euler(0f, rotacion.y, 0f);
+        MirarTarget();
 
         if(contadorDisparo <= 0)
         {
@@ -68,6 +63,14 @@ public class Torreta1 : MonoBehaviour
         }
 
         contadorDisparo -= Time.deltaTime;
+    }
+
+    public void MirarTarget()
+    {
+        Vector3 dir = target.position - transform.position;
+        Quaternion lookRotation = Quaternion.LookRotation(dir);
+        Vector3 rotacion = Quaternion.Lerp(rotatoria.rotation, lookRotation, Time.deltaTime * speed).eulerAngles;
+        rotatoria.rotation = Quaternion.Euler(0f, rotacion.y, 0f);
     }
 
     public void Shoot()

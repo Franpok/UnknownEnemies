@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class Enemigo : MonoBehaviour
 {
+    private int IDPunto = 0, IDPath;
+
     public float Velocidad = 20f;
-    private int IDPunto = 0;
-    private int IDPath;
+    public int Vida = 100, Precio = 50;
 
     private Transform target;
     private Transform[] PTS;
@@ -51,16 +52,38 @@ public class Enemigo : MonoBehaviour
         }
     }
 
+    public void QuitarVida(int num)
+    {
+        Vida -= num;
+
+        if(Vida <= 0)
+        {
+            Muerte();
+        }
+    }
+
+    public void Muerte()
+    {
+        Stats.Dinero += Precio;
+        Destroy(gameObject);
+    }
+
     public void SiguientePunto()
     {
         if (PTS.Length - 1 <= IDPunto)
         {
-            //Destroy(gameObject);
-            door = false;
+            Final();
             return;
         }
         
         IDPunto++;
         target = PTS[IDPunto];
+    }
+
+    public void Final()
+    {
+        Stats.Vida--;
+        Destroy(gameObject);
+        door = false;
     }
 }

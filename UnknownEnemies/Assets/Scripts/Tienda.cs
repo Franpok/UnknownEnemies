@@ -4,7 +4,7 @@ public class Tienda : MonoBehaviour
 {
     BuildManager buildManager;
 
-    public ClaseTorreta torreta_1, torreta_2;
+    public ClaseTorreta torreta_1, torreta_2, torreta_3;
 
     private void Start()
     {
@@ -22,6 +22,6 @@ public class Tienda : MonoBehaviour
     }
     public void ElegirTorreta3()
     {
-        //buildManager.ElegirEstructura(buildManager.torreta3);
+        buildManager.ElegirEstructura(torreta_3);
     }
 }

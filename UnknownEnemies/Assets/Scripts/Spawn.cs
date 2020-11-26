@@ -27,7 +27,9 @@ public class Spawn : MonoBehaviour
 
         cuentaAtras -= Time.deltaTime;
 
-        numeroOleadaTexto.text = Mathf.Round(cuentaAtras).ToString();
+        cuentaAtras = Mathf.Clamp(cuentaAtras, 0f, Mathf.Infinity);
+
+        numeroOleadaTexto.text = string.Format("{0:00.00}", cuentaAtras);
     }
 
     IEnumerator SpawnOleada()

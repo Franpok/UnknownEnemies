@@ -5,6 +5,7 @@ public class Bala : MonoBehaviour
     private Transform target;
 
     public float speed = 70f, rango = 0f;
+    public int daño = 20;
 
     public GameObject efectoImpacto;
 
@@ -54,7 +55,12 @@ public class Bala : MonoBehaviour
 
     private void Daño(Transform ene)
     {
-        Destroy(ene.gameObject);
+        Enemigo e = ene.GetComponent<Enemigo>();
+
+        if(e != null)
+        {
+            e.QuitarVida(daño);
+        }
     }
 
     private void Explosion()
